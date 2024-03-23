@@ -1,7 +1,7 @@
 use clap::Parser;
 #[derive(Parser)]
 struct Cli {
-    pattern: String;
+    pattern: String,
 }
 
 fn main() {
